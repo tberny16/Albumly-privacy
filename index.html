@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Politique de confidentialité — Albumly</title>
+<meta name="description" content="Politique de confidentialité de l’application Android Albumly, éditée par Berny Labs.">
+<meta name="color-scheme" content="light dark">
+<link rel="icon" href="icon.png" type="image/png">
+<style>
+  :root {
+    --bg: #f8f9ff;
+    --surface: #ffffff;
+    --text: #191b25;
+    --muted: #454754;
+    --primary: #315cf5;
+    --border: #dfe3f0;
+    --code-bg: #edf0f9;
+    --grad-a: #0a8bfc;
+    --grad-b: #6342fc;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #10121d;
+      --surface: #1a1c28;
+      --text: #e3e2ec;
+      --muted: #c6c5d0;
+      --primary: #b6c4ff;
+      --border: #2c2f3d;
+      --code-bg: #232634;
+    }
+  }
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font: 17px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  }
+  header {
+    background: linear-gradient(135deg, var(--grad-a), var(--grad-b));
+    color: #fff;
+    padding: 2.6rem 1.25rem 2.2rem;
+  }
+  .wrap { max-width: 44rem; margin: 0 auto; }
+  .brand { display: flex; align-items: center; gap: .85rem; }
+  .brand img { width: 54px; height: 54px; border-radius: 14px; display: block; }
+  .brand-name { font-size: 1.05rem; font-weight: 600; letter-spacing: .01em; opacity: .93; }
+  header h1 { font-size: 1.9rem; line-height: 1.2; margin: 1.1rem 0 .35rem; font-weight: 700; }
+  header p { margin: 0; opacity: .88; font-size: .95rem; }
+  main { max-width: 44rem; margin: 0 auto; padding: 2.4rem 1.25rem 4rem; }
+  .lede { font-size: 1.06rem; color: var(--text); }
+  .identity {
+    margin: 1.6rem 0 2.2rem;
+    padding: 1rem 1.15rem;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-left: 4px solid var(--primary);
+    border-radius: 10px;
+    font-size: .97rem;
+  }
+  .identity strong { font-weight: 600; }
+  h2 {
+    font-size: 1.22rem;
+    font-weight: 650;
+    margin: 2.4rem 0 .7rem;
+    padding-top: 1.4rem;
+    border-top: 1px solid var(--border);
+    line-height: 1.3;
+  }
+  h2:first-of-type { border-top: 0; padding-top: 0; }
+  p { margin: 0 0 1rem; }
+  ul { margin: 0 0 1rem; padding-left: 1.3rem; }
+  li { margin-bottom: .4rem; }
+  a { color: var(--primary); text-decoration-thickness: 1px; text-underline-offset: 2px; }
+  code {
+    background: var(--code-bg);
+    padding: .12em .42em;
+    border-radius: 5px;
+    font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+    font-size: .88em;
+  }
+  footer {
+    max-width: 44rem;
+    margin: 0 auto;
+    padding: 1.6rem 1.25rem 3rem;
+    color: var(--muted);
+    font-size: .88rem;
+    border-top: 1px solid var(--border);
+  }
+  @media (max-width: 480px) {
+    body { font-size: 16px; }
+    header { padding: 2rem 1.1rem 1.8rem; }
+    header h1 { font-size: 1.55rem; }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap">
+    <div class="brand">
+      <img src="icon.png" alt="" width="54" height="54">
+      <span class="brand-name">Albumly</span>
+    </div>
+    <h1>Politique de confidentialité</h1>
+    <p>Dernière mise à jour : 14 septembre 2026</p>
+  </div>
+</header>
+
+<main>
+  <p class="lede">Albumly inventorie les albums présents sur un appareil Android et permet de les
+  sauvegarder directement vers Google&nbsp;Drive ou OneDrive. Aucun média ne transite par un
+  serveur exploité par Albumly.</p>
+
+  <p class="identity">Éditeur : <strong>Berny Labs</strong><br>
+  Contact : <a href="mailto:tberny16@gmail.com">tberny16@gmail.com</a></p>
+
+  <h2>Données auxquelles l’application accède</h2>
+  <p>Selon les autorisations accordées, Albumly peut accéder aux éléments suivants :</p>
+  <ul>
+    <li>photos et vidéos de la galerie, y compris leur contenu ;</li>
+    <li>noms de fichiers, tailles, dates de modification, types de média et organisation en dossiers ;</li>
+    <li>identité affichée et quota du compte Google ou Microsoft choisi ;</li>
+    <li>état local des sauvegardes, erreurs techniques et progression des transferts.</li>
+  </ul>
+  <p>Albumly ne demande pas la localisation précise des médias et ne lit pas les données GPS EXIF.</p>
+
+  <h2>Finalités</h2>
+  <p>Ces données sont utilisées uniquement pour inventorier la galerie, présenter les albums,
+  détecter les nouveaux médias, éviter les doublons, reprendre les transferts et restaurer les
+  sauvegardes demandées par l’utilisateur.</p>
+
+  <h2>Transferts vers Google Drive et OneDrive</h2>
+  <p>Lorsqu’un utilisateur connecte un fournisseur puis l’active pour un album, le contenu du
+  média, son nom et l’organisation nécessaire à sa sauvegarde sont transmis directement au
+  fournisseur choisi, via TLS. Google ou Microsoft traite alors ces données selon ses propres
+  conditions et sa propre politique de confidentialité.</p>
+  <p>Albumly utilise les autorisations OAuth minimales prévues pour ses fichiers :
+  <code>drive.file</code> pour Google&nbsp;Drive et <code>Files.ReadWrite.AppFolder</code> pour
+  OneDrive. Albumly ne vend ni ne loue aucune donnée et ne transmet rien à un réseau publicitaire
+  ou à un service d’analyse.</p>
+
+  <h2>Conservation locale et sécurité</h2>
+  <p>L’index et l’historique restent dans le stockage privé de l’application. Le journal
+  circulaire est limité et exclut les noms, chemins, jetons, URL de reprise et identifiants
+  distants. Les valeurs sensibles nécessaires à une reprise sont chiffrées avec Android Keystore.
+  Les sauvegardes Android et le transfert automatique de la base et des préférences sont
+  désactivés.</p>
+  <p>Les jetons Google sont gérés par Google Play Services et les jetons Microsoft par MSAL.
+  Albumly ne les inscrit pas dans son journal et ne les envoie pas à un serveur propre.</p>
+
+  <h2>Choix et suppression</h2>
+  <p>L’utilisateur peut à tout moment :</p>
+  <ul>
+    <li>réduire ou retirer l’autorisation d’accès aux médias depuis Android ;</li>
+    <li>désactiver une destination pour un album ;</li>
+    <li>oublier localement un compte cloud et ses reprises ;</li>
+    <li>effacer l’historique local depuis le centre de confidentialité ;</li>
+    <li>supprimer toutes les données locales en désinstallant Albumly.</li>
+  </ul>
+  <p>Oublier un compte ou désinstaller l’application ne supprime pas les sauvegardes déjà
+  présentes dans Google&nbsp;Drive ou OneDrive. Elles doivent être supprimées depuis le
+  fournisseur concerné.</p>
+
+  <h2>Enfants, publicité et profilage</h2>
+  <p>Albumly ne contient ni publicité, ni achat, ni mécanisme de profilage. L’application n’est
+  pas spécifiquement conçue pour les enfants et ne cherche pas à déterminer l’âge de
+  l’utilisateur.</p>
+
+  <h2>Évolutions et contact</h2>
+  <p>Cette politique sera mise à jour si les fonctions ou les traitements de données changent. La
+  date de dernière mise à jour figure en haut du document.</p>
+  <p>Les demandes relatives aux données et à la confidentialité peuvent être adressées à Berny
+  Labs à l’adresse <a href="mailto:tberny16@gmail.com">tberny16@gmail.com</a>.</p>
+</main>
+
+<footer>
+  <div class="wrap">Albumly — édité par Berny Labs.</div>
+</footer>
+
+</body>
+</html>
