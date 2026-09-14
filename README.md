@@ -1,7 +1,7 @@
-# Politique de confidentialité d’Albumly
+# Politique de confidentialité d'Albumly
 
-Page publique de la politique de confidentialité de l’application Android **Albumly**, éditée par
-Berny Labs. Ce dépôt ne contient que cette page : le code source de l’application vit ailleurs et
+Page publique de la politique de confidentialité de l'application Android **Albumly**, éditée par
+Berny Labs. Ce dépôt ne contient que cette page : le code source de l'application vit ailleurs et
 reste privé.
 
 ## Publication
@@ -11,13 +11,13 @@ Servi par GitHub Pages depuis la branche `main`, à la racine :
 
 URL publique : <https://tberny16.github.io/albumly-privacy/>
 
-C’est cette URL qui est déclarée dans la fiche Google Play et dans le formulaire Data Safety.
+C'est cette URL qui est déclarée dans la fiche Google Play et dans le formulaire Data Safety.
 
 ## Mise à jour
 
-Le texte de référence est `docs/PRIVACY_POLICY.md` dans le dépôt de l’application. Toute
+Le texte de référence est `docs/PRIVACY_POLICY.md` dans le dépôt de l'application. Toute
 modification doit être reportée ici **et** la date de dernière mise à jour changée dans les deux
 fichiers, faute de quoi les deux versions divergent.
 
-Google Play vérifie que le nom de l’éditeur et l’adresse de contact affichés ici correspondent à
+Google Play vérifie que le nom de l'éditeur et l'adresse de contact affichés ici correspondent à
 ceux de la fiche.
