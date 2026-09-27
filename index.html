@@ -105,7 +105,7 @@
       <span class="brand-name">Albumly</span>
     </div>
     <h1>Politique de confidentialité</h1>
-    <p>Dernière mise à jour : 14 septembre 2026</p>
+    <p>Dernière mise à jour : 23 septembre 2026</p>
   </div>
 </header>
 
@@ -144,8 +144,11 @@
 
   <h2>Conservation locale et sécurité</h2>
   <p>L'index et l'historique restent dans le stockage privé de l'application. Le journal
-  circulaire est limité et exclut les noms, chemins, jetons, URL de reprise et identifiants
-  distants. Les valeurs sensibles nécessaires à une reprise sont chiffrées avec Android Keystore.
+  circulaire, limité aux 500 derniers événements, conserve notamment le nom du média, le compte
+  et le service cloud associés, ainsi que le résultat du transfert. Il ne conserve pas le chemin
+  complet, les jetons, les URL de reprise ou les identifiants de fichiers distants. L'export de
+  diagnostic, déclenché par l'utilisateur, omet les noms des médias et les identifiants de
+  comptes. Les valeurs sensibles nécessaires à une reprise sont chiffrées avec Android Keystore.
   Les sauvegardes Android et le transfert automatique de la base et des préférences sont
   désactivés.</p>
   <p>Les jetons Google sont gérés par Google Play Services et les jetons Microsoft par MSAL.
@@ -156,7 +159,7 @@
   <ul>
     <li>réduire ou retirer l'autorisation d'accès aux médias depuis Android ;</li>
     <li>désactiver une destination pour un album ;</li>
-    <li>oublier localement un compte cloud et ses reprises ;</li>
+    <li>déconnecter un compte cloud et oublier localement ses destinations et reprises ;</li>
     <li>effacer l'historique local depuis le centre de confidentialité ;</li>
     <li>supprimer toutes les données locales en désinstallant Albumly.</li>
   </ul>
