@@ -9,9 +9,10 @@ reste privé.
 Servi par GitHub Pages depuis la branche `main`, à la racine :
 *Settings → Pages → Source : Deploy from a branch → `main` / `(root)`*.
 
-URL publique : <https://tberny16.github.io/albumly-privacy/>
+URL publique : <https://tberny16.github.io/Albumly-privacy/>
 
-C'est cette URL qui est déclarée dans la fiche Google Play et dans le formulaire Data Safety.
+C'est cette URL qui est déclarée dans la fiche Google Play et dans le formulaire Data Safety. Le
+chemin respecte la casse du nom du dépôt : `albumly-privacy` en minuscules renvoie une 404.
 
 ## Mise à jour
 
