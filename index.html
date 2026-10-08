@@ -7,6 +7,7 @@
 <meta name="description" content="Politique de confidentialité de l'application Android Albumly, éditée par Berny Labs.">
 <meta name="color-scheme" content="light dark">
 <link rel="icon" href="icon.png" type="image/png">
+<link rel="stylesheet" href="styles.css">
 <style>
   :root {
     --bg: #f8f9ff;
@@ -98,6 +99,12 @@
 </head>
 <body>
 
+<a class="skip-link" href="#contenu">Aller au contenu</a>
+<nav class="site-nav" aria-label="Navigation principale">
+  <a class="nav-brand" href="accueil.html"><img src="icon.png" alt="" width="36" height="36">Albumly</a>
+  <div class="nav-links"><a href="accueil.html">Présentation</a><a href="./" aria-current="page">Confidentialité</a><a href="conditions.html">Conditions d’utilisation</a></div>
+</nav>
+
 <header>
   <div class="wrap">
     <div class="brand">
@@ -109,7 +116,7 @@
   </div>
 </header>
 
-<main>
+<main id="contenu">
   <p class="lede">Albumly inventorie les albums présents sur un appareil Android et permet de les
   sauvegarder directement vers Google&nbsp;Drive ou OneDrive. Aucun média ne transite par un
   serveur exploité par Albumly.</p>
@@ -180,7 +187,9 @@
 </main>
 
 <footer>
-  <div class="wrap">Albumly - édité par Berny Labs.</div>
+  <div class="wrap">Albumly - édité par Berny Labs.
+    <div class="footer-links"><a href="accueil.html">Présentation</a><a href="conditions.html">Conditions d’utilisation</a><a href="mailto:tberny16@gmail.com">Contact</a></div>
+  </div>
 </footer>
 
 </body>
